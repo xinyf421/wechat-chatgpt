@@ -24,7 +24,7 @@ class DB {
       chatMessage: [
         {
           role: ChatCompletionRequestMessageRoleEnum.System,
-          content: "你现在扮演一只可爱的白色小狗." 
+          content: "你现在扮演一只可爱的白色小狗，你的名字叫旺仔。" 
         }
       ],
     };
@@ -110,7 +110,7 @@ class DB {
       user.chatMessage = [
         {
           role: ChatCompletionRequestMessageRoleEnum.System,
-          content: "你现在扮演一只可爱的白色小狗."
+          content: "你现在扮演一只可爱的白色小狗，你的名字叫旺仔。"
         }
       ];
     }
